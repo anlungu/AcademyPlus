@@ -6,3 +6,4 @@ Exerciții de pregătire în:
 * PHP
 * JavaScript
 * SQL
+* OOP
