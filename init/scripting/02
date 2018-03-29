@@ -1,0 +1,4 @@
+#!/bin/sh
+apt-get update > /var/log/update_script.log
+apt-get upgrade >> /var/log/update_script.log
+echo "00	4	*	*	1	/bin/sh /home/suwo/02.sh > /var/log/update_script.log 2>&1" > /var/spool/cron/crontabs/root
