@@ -1,0 +1,69 @@
+		img.resize {
+    		width: 10%; /* you can use % */
+    		height: auto;
+		}
+
+		table{
+			width: 100%;
+		}
+		td {
+			width: 5.55555%;
+			border: 1px solid black;
+		}
+		h2 {
+			margin: 10px;
+			text-align: center;
+			font-size: 1.5vw;
+		}
+		.noborder { border: none; }
+		.mass {
+			text-align: right;
+			top: 0;
+			right: 0;
+			margin: 0;
+			margin-right: 3px;
+			font-size: 1vw;
+		}
+		.num {
+			text-align: right;
+			bottom: 0;
+			right: 0;
+			margin: 0;
+			font-size: 1vw;
+		}
+		.green {
+			background-color: #91E39F;
+		}
+		.armygreen {
+			background-color: #7EA37E;
+		}
+		.ltred {
+			background-color: #FF4C4C;
+		}
+		.grey {
+			background-color: #808080;
+		}
+		.yellow {
+			background-color: #DBDB4C;
+		}
+		.ltblue {
+			background-color: #66B2FF;
+		}
+		.pink {
+			background-color: #FFC0CB;
+		}
+		.dkpurple {
+			background-color: #A64CA6;
+		}
+		.orange {
+			background-color: #FFC9AD;
+		}
+		.ltpurple {
+			background-color: #C081C0;
+		}
+		body {
+			background-color: white;
+		}
+		td p {
+			font-size: 1vw;
+		}

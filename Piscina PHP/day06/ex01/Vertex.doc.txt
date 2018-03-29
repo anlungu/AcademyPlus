@@ -1,0 +1,11 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles points in space with additional RGB color support with
+the help of the Color class (for more information on the Color class, check
+Color.doc.txt in ../ex00)
+
+An instance can be constructed from distinct x, y, z constitutives:
+new Vertex( array( 'x' => 1.0, 'y' => 1.0, 'z' => 1.0 ) );
+
+And can contain an additional w homogeneous coordinate and/or a color:
+new Vertex( array( 'x' => 1.0, 'y' => 1.0, 'z' => 1.0, 'w' => 1.0, 'color' => $color) );
+---------------------------------------------------------------------- Vertex ->

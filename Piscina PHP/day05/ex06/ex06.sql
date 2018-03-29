@@ -1,0 +1,1 @@
+SELECT title, sumarry FROM film WHERE sumarry LIKE '%vincent%' ORDER BY id_distrib ASC;

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Balloon</title>
+	<style type="text/css">
+		div.balloon {
+			height: 200px;
+			width: 200px;
+			background-color: red;
+			border-radius: 50%;
+		}
+	</style>
+	<script type="text/javascript">
+		var color = {0: '#ff0000', 1: '#00ff00', 2: '#0000ff'};
+		var colorId = 0;
+		var balloon;
+		var size = 200;
+
+		window.onload = function () {
+			balloon = document.querySelector("#balloon");
+			balloon.addEventListener("click", balloonClick);
+			balloon.addEventListener("mouseleave", balloonLeave);
+			//console.log("Elements loaded.");
+		}
+
+		function balloonClick() {
+			//console.log("Clicked");
+			size += 10;
+			if (size > 420)
+				size = 200;
+
+			colorId++;
+			if (colorId > 2)
+				colorId = 0;
+
+			balloonRefresh();
+		}
+
+		function balloonLeave() {
+			//console.log("Left");
+			size -= 5;
+			if (size < 200)
+				size = 200;
+
+			colorId--;
+			if (colorId < 0)
+				colorId = 2;
+
+			balloonRefresh();
+		}
+
+		function balloonRefresh() {
+			balloon.style.height = size + 'px';
+			balloon.style.width = size + 'px';
+			balloon.style.backgroundColor = color[colorId];
+			//console.log("Refreshed");
+		}
+	</script>
+</head>
+<body>
+	<div class="balloon" id="balloon"></div>
+</body>
+</html>
