@@ -5,3 +5,4 @@ Proiecte incluse:
 * fillit
 * get_next_line
 * init
+* Piscina PHP (incomplet)
