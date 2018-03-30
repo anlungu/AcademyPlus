@@ -1,4 +1,4 @@
-# AcademyPlus
+# Academy+Plus
 
 Proiecte incluse:
 * Libft
@@ -6,3 +6,5 @@ Proiecte incluse:
 * get_next_line
 * init
 * Piscina PHP (incomplet)
+
+https://www.academyplus.ro/
