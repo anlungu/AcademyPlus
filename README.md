@@ -8,3 +8,6 @@ Proiecte incluse:
 * Piscina PHP (incomplet)
 
 https://www.academyplus.ro/
+
+#### Alte proiecte personale:
+* [Discord Bot](https://github.com/anlungu/KatieBot)
